@@ -1,0 +1,30 @@
+@import '../utils.css';
+
+.logoColor{
+	color:var(--btn-primary-bg);
+}
+.whitelogo
+{
+	width:125px;
+	height:auto;
+}
+/* .logoWhite{
+	color: #fff;
+	font-weight: bold;
+	font-size: 26px;
+	text-shadow: 0 6px 32px #484848 !important;
+} */
+
+
+@media screen and (max-width: 480px) {
+  .whitelogo {
+	width: 70px;
+	height:auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .whitelogo {
+	width: 50px;
+	height:auto;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AboutLayout",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AboutLayout.js"
+}

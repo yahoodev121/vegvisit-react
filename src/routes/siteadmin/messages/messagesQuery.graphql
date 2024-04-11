@@ -1,0 +1,30 @@
+query messageManagement($currentPage: Int, $searchList: String){
+  messageManagement(currentPage: $currentPage, searchList: $searchList) {
+    count
+    usersData{
+    id
+    listId
+    listData {
+      id
+      title
+      }
+      hostProfile {
+      displayName
+      profileId
+      firstName
+     }
+      hostUserData {
+      email
+    }
+
+      guestProfile {
+      displayName
+      firstName
+      profileId
+    }   
+     guestUserData {
+      email
+    }
+    } 
+   }
+}

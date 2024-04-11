@@ -1,0 +1,12 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/helpers.css';
+
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+}

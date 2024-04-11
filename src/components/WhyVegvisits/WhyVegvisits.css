@@ -1,0 +1,319 @@
+
+/** RentAll - Begin **/
+.containerWidth{
+    width: 100%;
+    max-width: 1200px;
+   
+}
+.sectionOne{
+    text-align: center;
+}
+.sectionOne h1{
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.whyVegvisits{
+    padding-bottom: 70px;
+    padding-top: 20px;
+
+}
+.sectionOne p{
+   
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #6a6a6a;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.icon{
+    color: #16c432;
+    font-size: 28px;
+    font-weight: bold;
+}
+.headContent{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4f4f;
+    margin: 0 0 0 8px;
+    letter-spacing: 0.5px;
+    padding: 5px 0 0 0;
+}
+.fontBold{
+    font-weight: 600;
+    color: #000;
+}
+.leftContentOne{
+    font-size: 17px;
+    margin: 35px 0 0 0;
+}
+.leftContentTwo{
+    font-size: 17px;
+    margin: 25px 0 0 0px;
+}
+.imageCss{
+    width: 100%;
+    padding-top: 60.66%;
+    background-size: cover;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sectionTwo{
+    margin: 85px 0 0 0;
+}
+.leftHeadingTwo{
+    margin: 60px 0 0;
+}
+.rightImageTwo{
+    margin: 90px 0 0;
+}
+.imageCssTwo{
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.imageCssHeight{
+    width: 100%;
+    padding-top: 60.66%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+/* .sectionFive{
+    margin: 20px 0 0;
+}
+.sectionSix{
+    margin: 20px 0 0;
+}
+.sectionSeven{
+    margin: 20px 0 0;
+} */
+.explore button{
+    width: 151px;
+    height: 41px;
+    background: #33b145;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 0 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.explore button a{
+    color: #fff !important;
+    text-decoration: none;
+}
+.listYour button{
+    width: 151px;
+    height: 41px;
+    background: transparent;
+    color: #33b145;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #33b145;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 0 0 25px;
+}
+.explore{
+    display: inline-block;
+}
+.listYour{
+    display: inline-block;
+}
+.Buttons{
+    text-align: center;
+    margin: 70px 0 0;
+}
+.displayTable{
+    display: table;
+    width:100%;
+}
+.displayTableRow{
+    display: table-cell;
+    width:100%;
+}
+.displayTableCell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.sectionThree{
+    margin-top: 30px;
+}
+.sectionFour{
+    margin-top: 10px;
+}
+.sectionFive{
+    margin-top: 65px;
+}
+.sectionSix{
+    margin-top: 60px;
+}
+.sectionSeven{
+    margin-top: 50px;
+}
+
+.oneMargin {
+    margin-top: 70px !important;
+}
+
+.twoMargin {
+    margin-top: 25px !important;
+}
+
+.threeMargin {
+    margin-top: 6px !important;
+}
+
+.imgPadding {
+    padding-top: 70% !important;
+}
+
+.fourMargin {
+    margin-top: 18px;
+}
+
+
+@media (max-width:1199px) and (min-width:1024px) {
+    .sectionOne p {
+        width: 70%;
+      
+    }
+    .sectionFour{
+        margin: 65px 0 0;
+    }
+    .sectionThree{
+        margin: 65px 0 0;
+    }
+    .sectionFive{
+        margin: 65px 0 0;
+    }
+    .sectionSix{
+        margin: 65px 0 0;
+    }
+    .sectionSeven{
+        margin: 65px 0 0;
+    }
+    .imageCssTwo {     
+        height: 555px;
+    }
+    .listYour button {
+       
+        margin: 0 0 0 15px;
+        width: 170px;
+    }
+    .explore button {
+        width: 170px;
+      
+    }
+    .marginTop{
+        margin: 0;
+    }
+}
+    
+    
+@media (max-width:1023px) and (min-width:768px) {
+    .sectionOne p {
+        width: 74%;
+       
+    }
+    .sectionFour{
+        margin: 60px 0 0;
+    }
+    .sectionThree{
+        margin: 65px 0 0;
+    }
+    .sectionFive{
+        margin: 65px 0 0;
+    }
+    .sectionSix{
+        margin: 65px 0 0;
+    }
+    .sectionSeven{
+        margin: 65px 0 0;
+    }
+    .imageCssHeight{
+        padding-top: 90.66%;
+    }
+    .imageCss{
+        padding-top: 90.66%;
+        background-position: top right;
+    }
+    .listYour button {
+       
+        margin: 0 0 0 15px;
+        width: 170px;
+    }
+    .explore button {
+        width: 170px;
+      
+    }
+    .marginTop{
+        margin: 0;
+    }
+}
+   
+@media (max-width: 767px){
+    .sectionOne p {
+        width: 100%;
+        
+    }
+    .rightImage{
+        margin: 50px 0 0;
+    }
+    .rightImageTwo {
+        margin: 50px 0 0;
+    }
+    .Buttons{
+        text-align: center;
+        margin: 40px 0 0;
+    }
+    .explore{
+        display: block;
+    }
+    .listYour{
+        display: block;
+    }
+    .listYour button {
+        
+        margin: 20px 0 0 0px;
+    }
+    .displayTop{
+        vertical-align: top;
+    }
+    .listYour button {
+       
+        
+        width: 170px;
+    }
+    .explore button {
+        width: 170px;
+      
+    }
+    .marginTop{
+        margin: 0;
+    }
+    .leftHeadingTwo{
+        margin:50px 0 0;
+    }
+    .sectionThree{
+        margin-top: 50px;
+    }
+    .sectionFour{
+        margin-top: 50px;
+    }
+    .sectionTwo{
+        margin: 55px 0 0 0;
+    }
+    
+}

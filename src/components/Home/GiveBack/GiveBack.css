@@ -1,0 +1,86 @@
+@import "../../utils.css";
+
+.bg {
+  background: #fff;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.content {
+  margin: 20px 0;
+  padding: 10px 0;
+  background-color: var(--btn-primary-bg);
+  color: #fff;
+}
+
+.row {
+  margin: 0;
+}
+
+.item {
+  margin: 40px 20px;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 20px auto;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 25px;
+    margin: 15px auto;
+  }
+
+  .description {
+    font-size: 17px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .title {
+    font-size: 22px;
+    margin: 12px auto;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .item {
+    margin: 10px;
+  }
+
+  .title {
+    font-size: 23px;
+    margin: 10px auto;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .icon img {
+    width: 42px;
+    height: 42px;
+  }
+}

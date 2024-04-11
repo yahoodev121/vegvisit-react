@@ -1,0 +1,124 @@
+@import '../../utils.css';
+
+.heading h1{
+font-weight: bold;
+color: #fff;
+font-size: 36px;
+margin: 0;
+}
+.heading p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 22px;
+    margin: 12px 0 0 0;
+}
+.sectionTwo{
+    background: #fff;
+    padding: 0px 0;
+    margin: 30px 0 0;
+}
+.left img{
+width: 80px;
+}
+.left{
+    text-align: center;
+    
+    padding: 50px 0;
+}
+.rightBorder{
+    border-right: 1px solid #eee;
+}
+.innerHeading{
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 22px 0;
+
+}
+.innerContent{
+    padding: 0 50px;
+    font-size: 15px;
+}
+.leftNoBorder img{
+    width: 80px;
+}
+.leftNoBorder{
+    text-align: center;
+    border:none;
+    padding: 50px 0;
+}
+.explore Button{
+    border-color: var(--btn-primary-bg) !important;
+    background-color: var(--btn-primary-bg) !important;
+    color: #fff !important;
+    padding: 11px 16px;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.explore{
+    display: inline-block;
+}
+.becomeaHost{
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+.becomeaHost Button{
+    border-color: var(--btn-primary-bg) !important;
+    background-color: #fff !important;
+    color: var(--btn-primary-bg) !important;
+    padding: 11px 16px;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.buttons{
+    text-align: center;
+    padding: 30px 0 6px;
+}
+.displayFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.displayFlex::after, .displayFlex::before{
+    display: none;
+}
+
+.linkText, .linkText:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+    .centerContent{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px){
+    .left {
+        
+        border-right: none;
+   
+    }
+    .becomeaHost {
+        display: inline-block;
+        margin: 20px 0 0 0px;
+    }
+    .left{
+        padding: 50px 0 0;
+    }
+}  
+
+@media (max-width:767px) and (min-width: 322px) {
+    .responsiveMargin {
+        margin-left: 12px;
+    }
+    .becomeaHost{   
+        margin:20px 8px 0px 8px;
+    }
+    .becomeaHost Button{
+    
+        padding:11px 17.5px;
+    }
+} 

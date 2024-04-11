@@ -1,0 +1,6 @@
+{
+  "name": "FreeCancellation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FreeCancellation.js"
+}

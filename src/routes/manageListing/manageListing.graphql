@@ -1,0 +1,114 @@
+query ManageListings{
+    ManageListings {
+        id
+        title
+        city
+        updatedAt
+        coverPhoto
+        isPublished
+        isReady
+        listType
+        listPhotos{
+            id
+            name
+        }
+        listingRetreat {
+            accommodations {
+              type
+              price
+              deposit_percent
+              description
+              photos {
+                name
+                type
+              }
+            }
+            teachers {
+              name
+              email
+              is_yoga_alliance
+              about
+              photos {
+                name
+                type
+              }
+              location {
+                country
+                street
+                buildingName
+                city
+                state
+                zipCode
+              }
+            }
+            eventType
+            category
+            title
+            location
+            country
+            street
+            city
+            state
+            zipcode
+            lat
+            lng
+            subCategory
+            RetreatStyle
+            atmospheres
+            yogaTypes
+            skillLevels
+            languageId
+            benefits
+            summary
+            reviews
+            showType
+            includes
+            not_includes
+            special
+            full_description
+            instagram_url
+            meal
+            drink
+            food
+            currency
+            retreat_dates
+            duration
+            min_days
+            isAllowPayment
+            isCash
+            addons
+            cancellationPolicy
+            allow_flexibility
+            use_increase_booking
+            free_gift_name
+            free_gift_desc
+            itinerary
+            localInfoDesc
+            localInformation
+            facilityFeatures
+            seasonalInformation
+            travelHelp
+        }
+        listCategories{
+            id
+            listId
+            category
+            subCategory
+        }
+        settingsData {
+            listsettings {
+                id
+                itemName
+            }
+        }
+        listingSteps {
+            id
+            step1
+            step2
+            step3
+        }
+        user{
+            userBanStatus
+        }
+    }
+  }

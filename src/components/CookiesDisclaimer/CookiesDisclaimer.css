@@ -1,0 +1,150 @@
+@import '../utils.css';
+
+.cookiesBackground {
+    background-color: #fff !important;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px 0px #484848;
+}
+
+.root{
+    padding:10px;
+}
+
+.labelText {
+    color: #484848 !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;  
+}
+.paddingSpace{
+   padding-right:16px;
+   padding-left:16px;     
+}
+.linkStyle {
+    color: #484848 !important;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.shiftLeftForTawkTo {
+    margin-right: 70px;
+    margin-left: 20px;
+}
+.shiftLeftForTawkToIfSmall {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.button {
+    border-color: var(--btn-primary-bg) !important;
+    background-color: var(--btn-primary-bg) !important;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0px;
+    float:right;
+    z-index:9;
+}
+.button:hover, .button:focus, .button:active,
+.button:active:hover, .button:active:focus {
+    border-color: var(--btn-primary-hover-bg) !important;
+    background-color: var(--btn-primary-hover-bg) !important;
+    color: #fff !important;
+}
+
+.fixedPosition{
+    position:fixed !important;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    z-index: 1005;
+ }
+
+.displayTable {
+    width: 100%;
+    display: table;
+}
+
+.displayRow {
+    width: 100%;
+    display: table-row;
+}
+
+.displayText {
+    display: table-cell;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.displayBtn {
+    width: 10%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.displayTableSection {
+    padding: 15px;
+}
+
+.displayTableCell {
+    display: table-cell;
+}
+
+@media screen and (max-width: 480px) {
+    .cookiesBackground {
+        background-color: #fff !important;
+        height: auto; 
+    }
+    .button {
+    float:right;
+    margin-top:0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    }
+    .labelText {
+    font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .displayText {
+        display: block;
+        width: 100%;
+        vertical-align: middle;
+    }
+    
+    .displayBtn {
+        width: 100%;
+        display: block;
+        vertical-align: middle;
+    }
+    .button {
+        border-color: var(--btn-primary-bg) !important;
+        background-color: var(--btn-primary-bg) !important;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 8px;
+        float:right;
+        z-index:9;
+    }
+    .displayTableSection {
+        padding: 15px;
+    }
+    .btnlarge {
+        padding: 9px 27px;
+    }
+    .shiftLeftForTawkToIfSmall {
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .labelText {
+        color: #484848 !important;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;  
+    }
+}

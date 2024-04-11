@@ -1,0 +1,113 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-bottom: 24px;
+  /* max-width: 1200px; */
+  width: 90%;
+  overflow: hidden;
+}
+
+.pageContainer {
+  padding-top: 48px;
+}
+
+.containerTitle {
+    color: #484848;
+    line-height: 32px;
+    margin: 0 0 24px;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.welcomeHome {
+  padding: 55px;
+  padding-top: 80px;
+  background-color: #faf6e9;
+  margin-top: -24px;
+}
+
+.exploreMap,
+.experience,
+.retreats,
+.hostToday,
+.buzz,
+.giveBack {
+  padding-top: 80px;
+}
+
+.experience {
+  background-color: #faf6e9;
+}
+.bgColor{
+  background: url(../../../public/howItwork.jpg) no-repeat;
+  height: 580px;
+  background-size: cover;
+  background-position: 50% 20%;
+  padding: 42px 0 0;
+  margin: 25px 0 50px 0;
+}
+
+.overFlowHidden {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1170px) {
+  .containerTitle {
+    text-align: center;
+  }
+}
+@media (max-width:1199px) and (min-width:1022px){
+  .bgColor{
+    height: auto;
+  }
+}
+@media (max-width:1023px) and (min-width:768px) {
+  .bgColor{
+    height: auto;
+  }
+  }
+@media screen and (max-width: 767px) {
+  .marginLeft {
+    margin: 0 0 24px 0px;
+  }
+  .bgColor{
+    height: auto;
+    padding: 30px 0 0;
+  }
+  .welcomeHome {
+    height: 100vh;
+    padding: 20px;
+    padding-top: 55px;
+  }
+
+  .exploreMap,
+  .experience,
+  .retreats,
+  .hostToday,
+  .buzz,
+  .giveBack {
+    padding-top: 55px;
+  }
+}
+@media (max-width: 350px) {
+  .welcomeHome {
+    height: 100vh;
+    padding: 10px;
+    padding-top: 30x;
+  }
+
+  .exploreMap,
+  .experience,
+  .retreats,
+  .hostToday,
+  .buzz,
+  .giveBack {
+    padding-top: 30x;
+  }
+}

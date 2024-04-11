@@ -1,0 +1,97 @@
+@import '../../components/variables.css';
+@import '../utils.css';
+
+.root {
+  padding: 32px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.modalContainer {
+/*   max-width: 568px; */
+   margin: 54px auto;
+}
+
+.modalBody {
+  padding: 0px;
+}
+
+.modalFooter {
+  padding: 16px 32px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.btnPrimary {
+    border-color: var(--btn-primary-bg);
+    background-color: var(--btn-primary-bg);
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: var(--btn-primary-hover-bg);
+  background-color: var(--btn-primary-hover-bg);
+  color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.getEmailCarousel li {
+  background-color: var(--btn-primary-bg);
+}
+
+.getEmailCarousel li[class='active'] {
+  background-color: var(--btn-primary-hover-bg);
+}
+
+.getEmailCarousel a {
+  color: var(--btn-primary-bg);
+}
+
+.getEmailCarousel a:focus, .getEmailCarousel a:hover {
+  color: var(--btn-primary-hover-bg);
+}
+
+@media screen and (max-width: 640px){
+  .modalContainer{
+    margin: 0px auto;
+  }
+}

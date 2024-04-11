@@ -1,0 +1,6 @@
+{
+  "name": "Quotes",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Quotes.js"
+}

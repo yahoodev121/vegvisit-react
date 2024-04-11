@@ -1,0 +1,161 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.container {
+  max-width: 1200px;
+}
+
+.seperator {
+  background-color: #484848;
+  width: 420px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+ 
+  border-top: 1.5px solid #484848;
+  background-color: transparent;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+
+h4.common {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 24px;
+}
+
+p.common {
+  font-size: 17px;
+  /* line-height: 1.7; */
+  font-weight: 400;
+}
+
+.Paymentsection {
+  margin-bottom: 116px
+}
+
+.Paymentsection a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Paymentsection {
+  margin-bottom: 31px
+}
+
+.iconSection {
+  width: 100%;
+  max-width: 150px;
+}
+
+.displayInline {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 18px;
+  padding: 15px;
+  float: left;
+}
+
+.listSection {
+  padding-left: 20px !important;
+  font-size: 17px !important;
+}
+
+.steps {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.displayFlex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayFlex:before , .displayFlex:after{
+  display:none !important;
+}
+
+@media screen and (max-width:991px) {
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 56px;
+  }
+  .Paymentsection {
+    margin-bottom: 31px;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  .mainhedding h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+  h4.common {
+    font-size: 20px;
+  }
+  /* .Paymentsection {
+    margin-bottom: 0px;
+  } */
+  p.common {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+
+  .displayInline {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 15px;
+  }
+
+  .listSection {
+    padding-left: 20px !important;
+    font-size: 16px !important;
+  }
+
+  .iconSection {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .seperator {
+    background-color: #484848;
+    width: 250px;
+    display: block;
+    height: 1.5px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+  
+}
+
+

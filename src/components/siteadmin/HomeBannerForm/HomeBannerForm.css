@@ -1,0 +1,11 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+.imageWidth{
+    width:100%;
+}
+
+.marginBottom20{
+    margin-bottom:20px;
+}

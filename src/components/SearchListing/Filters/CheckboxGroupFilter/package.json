@@ -1,0 +1,6 @@
+{
+    "name": "CheckboxGroupFilter",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CheckboxGroupFilter.js"
+}

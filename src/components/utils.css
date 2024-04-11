@@ -1,0 +1,76 @@
+@import "variables.css";
+
+.errorMessage {
+  margin-bottom: 5px;
+  display: block;
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.fullWidth {
+  width: 100% !important;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #191919;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  padding: 0 10%;
+  margin-bottom: 0px;
+}
+
+.sectionDescription {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  padding: 10px 2%;
+}
+
+@media screen and (max-width: 992px) {
+  .sectionTitle {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .sectionDescription {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sectionTitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sectionTitle {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .sectionDescription {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .sectionTitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .sectionDescription {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}

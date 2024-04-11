@@ -1,0 +1,144 @@
+@import "../../utils.css";
+
+.bg {
+  background-image: url(./image.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.bg:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.hostWrapper {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  li {
+    list-style: none;
+  }
+}
+
+.btnList {
+  font-size: 1.5em;
+  /* padding: 10px 40px 6px 40px; */
+  padding: 12px 40px 12px 40px;
+  background-color: var(--btn-primary-bg);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.hostTitle {
+  font-size: 35px;
+  /* font-size: 45px; */
+
+  font-weight: 400;
+  letter-spacing: 2.8px;
+  line-height: 47px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hostSubtitle {
+  /* font-size: 20px; */
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 10px 10%;
+}
+
+@media screen and (max-width: 1024px) {
+  .hostWrapper {
+    width: 60%;
+  }
+
+  .hostTitle {
+    font-size: 30px;
+    /* font-size: 35px; */
+
+    line-height: 1.1;
+  }
+
+  .hostSubtitle {
+    /* font-size: 18px; */
+    font-size: 23px;
+    line-height: 1.1;
+  }
+
+  .btnList {
+    font-size: 1.3em;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hostWrapper {
+    width: 70%;
+  }
+
+  .hostTitle {
+    font-size: 25px;
+    /* font-size: 30px; */
+  }
+
+  .hostSubtitle {
+    /* font-size: 1rem; */
+    font-size: 18px;
+  }
+
+  .btnList {
+    font-size: 1em;
+    /* padding: 1em 2.2em; */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hostWrapper {
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    align-items: center;
+  }
+
+  .hostTitle {
+    /* font-size: 25px; */
+    font-size: 20px;
+    line-height: 1.1;
+  }
+
+  .hostSubtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .btnList {
+    font-size: 15px;
+  }
+}

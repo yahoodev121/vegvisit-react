@@ -1,0 +1,187 @@
+@import '../../components/variables.css';
+@import '../../components/helpers.css';
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.topPadding {
+  padding-top: 83px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 0px;
+  background-color: #f7f7f7;
+}
+
+.stickyMap {
+  position: sticky;
+  top: 64px;
+}
+
+.containerPadding {
+  padding: 0px 0px 0px !important;
+}
+
+/* Search page - RentAll **/
+.searchLoaderContainer {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+}
+
+.searchResultContainer {
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /*overflow-y: auto;*/
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+@media screen and (min-width: 641px) {
+  .searchResultContainer {
+    /*position: fixed;
+    top: 128px;
+    overflow-y: auto;
+    overflow-x: hidden;*/
+  }  
+}
+
+.searchMapContainer {
+  /* background-color: rgb(164, 221, 245); */
+  width: 100%;
+  display: block;
+  height: 300px;
+  padding: 10px;
+  /* position: fixed;
+  right: 0;
+  left: auto;
+  bottom: 0;
+  top: 148px;
+  padding: 24px 24px 24px 0px; */
+}
+
+.mobileNavigation {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  opacity: 1;
+  right: 0;
+  text-align: center;
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  z-index: 5;
+  display: none;
+}
+
+.buttonOuter {
+  display: inline-block;
+  width: 100%;
+}
+
+.buttonContainer {
+    background-color: transparent;
+    color: #484848;
+    float: left ;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    margin: 0;
+    /* overflow: hidden; */
+    padding-bottom: 0;
+    padding-top: 0;
+    width: 100%;
+}
+
+.filterButton, .filterButton:hover, .filterButton:focus, .filterButton:active:focus  {
+  color: #006c70;
+  text-decoration: none;
+  padding: 10px 15px;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.14);
+  background-color: #ffffff;
+  border-radius: 80px;
+  outline: 0;
+}
+
+.filterButton .icon {
+  font-size: 20px;
+}
+
+.filterButton:last-child {
+  border: none;
+}
+
+.locationBtn, .locationBtn:hover, .locationBtn:focus, .locationBtn:active:focus {
+  padding: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+.locationBtn .icon {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0px 0px 0px;
+  }  
+}
+
+@media screen and (max-width: 991px) {
+  .listItemOnly.searchResultContainer {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .listItemOnly.searchResultContainer {
+    width: 100% !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .resultsBody {
+    display: block;  
+  }
+
+  .mobileNavigation {
+    display: block;
+  }
+
+  .searchResultContainer {
+    width: 100%;
+  }
+
+  .listItemOnly.searchResultContainer {
+    width: 100% !important;
+    margin-top: 0px;
+  }
+  .searchMapContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    top: 64px;
+  }
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.fullWidth {
+  width: 100%;
+}

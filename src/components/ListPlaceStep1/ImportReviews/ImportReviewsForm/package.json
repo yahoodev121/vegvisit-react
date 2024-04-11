@@ -1,0 +1,6 @@
+{
+  "name": "ImportReviewsForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImportReviewsForm.js"
+}

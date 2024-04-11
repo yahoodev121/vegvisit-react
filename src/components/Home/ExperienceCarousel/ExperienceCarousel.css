@@ -1,0 +1,240 @@
+@import "../../utils.css";
+
+.experienceHeading {
+  text-align: center;
+  color: #191919;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 1.2px;
+  line-height: 6vw;
+  margin: 0 5%;
+}
+
+.experienceDescription {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.4vw;
+  letter-spacing: 0.1vw;
+  color: #3b3838;
+}
+
+.carouselItem {
+  text-align: center;
+  position: relative;
+}
+
+.gridImgContainer {
+  display: inline-block;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.gridItemImage {
+  width: 100%;
+  height: auto;
+}
+
+.mobileGridItem {
+  width: 100%;
+}
+
+.gridItemTitle {
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.gridItemDescription {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.gridItemPrice {
+  text-align: center;
+}
+
+.itemTitle {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.itemDescription {
+  position: absolute;
+  bottom: 19%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.itemPrice {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.itemImage {
+  display: block;
+  max-width: 500px;
+  max-height: 800px;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 7px 21px;
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navigationIcon {
+  display: block;
+  fill: rgb(255, 255, 255);
+  height: auto;
+  width: auto;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.sliderMargin {
+  margin: 0 30px 30px 22px;
+}
+
+@media screen and (max-width: 1200px) {
+  .itemTitle {
+    font-size: 22px;
+  }
+
+  .itemDescription {
+    font-size: 16px;
+  }
+
+  .itemPrice {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .itemTitle {
+    font-size: 20px;
+  }
+
+  .itemDescription {
+    font-size: 13px;
+  }
+
+  .itemPrice {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .itemTitle {
+    font-size: 21px;
+  }
+
+  .itemDescription {
+    font-size: 14px;
+  }
+
+  .itemPrice {
+    font-size: 12px;
+  }
+
+  .experienceHeading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .experienceDescription {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0vw;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 790px) {
+  .itemTitle {
+    font-size: 16.5px;
+  }
+
+  .itemDescription {
+    font-size: 12px;
+  }
+
+  .itemPrice {
+    font-size: 10px;
+  }
+  .experienceHeading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .itemTitle {
+    font-size: 23px;
+  }
+
+  .itemDescription {
+    font-size: 14px;
+  }
+
+  .itemPrice {
+    font-size: 12px;
+  }
+
+  .experienceHeading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .experienceDescription {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .itemTitle {
+    font-size: 18px;
+  }
+
+  .itemDescription {
+    font-size: 12px;
+  }
+
+  .itemPrice {
+    font-size: 10px;
+  }
+  .experienceDescription {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+  }
+  .navigationIcon {
+    padding: 6px;
+  }
+}

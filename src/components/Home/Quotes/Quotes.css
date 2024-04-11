@@ -1,0 +1,80 @@
+@import "../../utils.css";
+
+.displayTable{
+    margin-top: 20px;
+    width:100%;
+    display: table;
+}
+.displayRow{
+    width:100%;
+    display: table-row;
+}
+.displayTableCell{
+    vertical-align: middle;
+    display: table-cell;
+}
+.bg{
+    background: #eeeeee;
+    text-align: center;
+    width: 70%;
+    height:380px;
+}
+.contentOne{
+    font-weight: 400;
+    font-size: 22px;
+    width: 80%;
+    margin: 0 auto;
+}
+.contentTwo{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 30px 0 0 0;
+}
+.imageCss{
+    width:100%;
+    height:380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+.whiteCss{
+    width: 2%;
+    background: #fff;
+    height:380px;
+}
+
+@media (max-width: 767px){
+    .bg {
+        background: #eeeeee;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 25px 0;
+    }
+    .displayTable{
+        display: block;
+    }
+    .displayTableCell{
+        display: block;
+    }
+    .imageCss{
+        margin-top: 20px;
+    }
+    .contentOne, .contentTwo {
+        font-size: 20px;
+    }
+}
+
+.noOutline {
+    outline: none !important;
+}
+
+.noOutline:focus {
+    outline: none !important; 
+}
+
+@media (max-width: 640px) {
+    .contentOne, .contentTwo {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,23 @@
+query getPayouts {
+  getPayouts {
+    id
+    methodId
+    paymentMethod{
+      id
+      name
+    }
+    userId
+    payEmail
+    address1
+    address2
+    city
+    state
+    country
+    zipcode
+    currency
+    default
+    createdAt
+    status
+    last4Digits
+  }
+}

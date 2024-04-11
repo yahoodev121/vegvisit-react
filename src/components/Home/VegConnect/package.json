@@ -1,0 +1,6 @@
+{
+  "name": "VegConnect",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VegConnect.js"
+}

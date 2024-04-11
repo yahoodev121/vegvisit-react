@@ -1,0 +1,46 @@
+@import '../../../../components/common.css';
+
+.filters {
+     border-bottom: 1px solid #dce0e0;
+ }
+
+ .filtersFooter {
+    width: 66%;
+    position: fixed;
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+    bottom: 0;
+    left: 0px;
+    background-color: var(--background-color);
+    padding: 10px;
+    display: block;
+    padding-right: 24px;
+    z-index: 12;
+ }
+
+ @media screen and (max-width: 768px) {
+    .filtersFooter {
+        width: 100%;
+        padding-right: 0px;
+        position: fixed;
+        z-index: 12;
+    }
+ }
+ @media screen and (max-width: 992px) {
+ .houseMobile{
+    padding-bottom: 40px;
+ }
+}
+@media screen and (max-width: 768px) {
+.textLeft{
+   text-align: left;
+}
+.fullWidth{
+   width:auto !important;
+}
+.spaceTop1{
+   width:auto;
+}
+.spaceTop1{
+   text-align: left;
+}}

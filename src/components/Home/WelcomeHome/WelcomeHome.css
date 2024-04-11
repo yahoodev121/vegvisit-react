@@ -1,0 +1,125 @@
+@import "../../utils.css";
+
+.welcomeHomeHeading {
+  text-align: center;
+  color: #191919;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 1.2px;
+  line-height: 6vw;
+  white-space: nowrap;
+}
+.welcomeImageWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.welcomeImage {
+  display: block;
+  max-width: 800px;
+  max-height: 1000px;
+  width: 100%;
+  height: auto;
+}
+.WelcomeHomeDescription {
+  text-align: center;
+}
+.WelcomeHomeDescription p {
+  font-weight: 400;
+  font-size: 1.7vw;
+  margin: 1% 3% 5% 3%;
+  line-height: 2.4vw;
+  letter-spacing: 0.14vw;
+  color: #3b3838;
+}
+.paddingTop {
+  padding-top: 30px;
+}
+.linkWrapper {
+  margin: 10px;
+}
+.btn {
+  padding: 10px 40px 6px 40px;
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  font-weight: bold;
+}
+.btnRound {
+  border-radius: 50px;
+  background-color: #69676779 !important;
+  border: none !important;
+  color: white !important;
+  margin: 10px;
+  min-width: 120px;
+}
+.btnPrimary {
+  border-color: var(--btn-primary-bg) !important;
+  background-color: var(--btn-primary-bg) !important;
+  color: #fff;
+}
+.btnLearnMore {
+  display: inline-block;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .btnLearnMore {
+    font-size: 2vw;
+  }
+  .WelcomeHomeDescription p {
+    font-weight: 400;
+    font-size: 1.7vw;
+    margin: 1% 1% 5% 1%;
+    line-height: 2.4vw;
+    letter-spacing: 0vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .btnLearnMore {
+    font-size: 13px;
+  }
+  .welcomeHomeHeading {
+    font-size: 2.5em;
+    line-height: 40px;
+  }
+  .WelcomeHomeDescription p {
+    font-size: 2vw;
+    line-height: 3vw;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+  }
+  .welcomeImage {
+    height: 50vh;
+    width: auto;
+  }
+  .paddingTop {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .welcomeHomeHeading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .WelcomeHomeDescription p {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .welcomeHomeHeading {
+    font-size: 25px;
+  }
+  .WelcomeHomeDescription p {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+}

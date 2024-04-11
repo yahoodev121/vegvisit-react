@@ -1,0 +1,73 @@
+@import "../../utils.css";
+
+.bg {
+  background: #fff;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+.content {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 80%;
+  margin: 20px auto;
+}
+.item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.images {
+  padding: 0 2%;
+}
+.images img {
+  width: auto;
+  max-height: 100px;
+  max-width: 150px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 800px) {
+  .content {
+    font-size: 24px;
+  }
+  .images img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 799px) {
+  .content {
+    font-size: 19px;
+  }
+  .marginTop {
+    margin-top: 25px;
+  }
+  .images img {
+    width: 110px;
+  }
+}
+
+@media (max-width: 510px) {
+  .content {
+    font-size: 17px;
+  }
+  .images img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 440px) {
+  .content {
+    font-size: 18px;
+  }
+  .images img {
+    width: 130px;
+  }
+}

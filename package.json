@@ -1,0 +1,329 @@
+{
+  "name": "vegvistis-main",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=6.5",
+    "npm": ">=3.10"
+  },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.180.0",
+    "@aws-sdk/s3-request-presigner": "^3.180.0",
+    "@googlemaps/google-maps-services-js": "2.3.1",
+    "@paypal/checkout-server-sdk": "^1.0.2",
+    "apollo-client": "^1.4.2",
+    "babel-polyfill": "^6.22.0",
+    "bcrypt": "^5.1.0",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
+    "browser-or-node": "^1.3.0",
+    "card-validator": "^5.0.0",
+    "classnames": "^2.2.5",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^1.4.0",
+    "core-js": "^2.4.1",
+    "cron": "^1.2.1",
+    "csv-express": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "exenv": "^1.2.2",
+    "express": "^4.14.1",
+    "express-graphql": "^0.6.3",
+    "express-jwt": "^5.1.0",
+    "express-request-language": "^1.1.9",
+    "fastclick": "^1.0.6",
+    "fcm-node": "^1.5.1",
+    "fs-extra": "^2.0.0",
+    "graphql": "^0.9.1",
+    "graphql-tag": "^2.0.0",
+    "history": "4.10.1",
+    "ical": "^0.8.0",
+    "ical-generator": "^1.12.1",
+    "intl": "^1.2.5",
+    "intl-locales-supported": "^1.8.12",
+    "isomorphic-style-loader": "^4.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "loglevel": "^1.6.8",
+    "loglevel-plugin-server": "^1.0.7",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.28",
+    "money": "^0.2.0",
+    "multer": "^1.2.1",
+    "mysql": "^2.13.0",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^1.6.3",
+    "node-sass": "^8.0.0",
+    "nodemailer": "^3.1.8",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "normalize.css": "^5.0.0",
+    "npm": "^10.2.5",
+    "oy-vey": "^0.11.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth2": "^0.2.0",
+    "paypal-rest-sdk": "^1.7.1",
+    "pretty-error": "^2.0.2",
+    "prop-types": "^15.6.2",
+    "puppeteer": "^13.7.0",
+    "query-string": "^4.3.1",
+    "queryfy": "^1.1.1",
+    "querystring": "^0.2.0",
+    "rc-pagination": "^1.8.10",
+    "rc-slider": "8.6.3",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^3.0.0",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-apollo": "^1.4.2",
+    "react-async-script": "^0.9.1",
+    "react-autosuggest": "^9.3.4",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap": "^0.31.0",
+    "react-collapsible": "^2.6.0",
+    "react-confirm-bootstrap": "5.3.0",
+    "react-cookies": "^0.1.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-count-down": "^1.1.0",
+    "react-dates": "17.1.1",
+    "react-day-picker": "^6.0.1",
+    "react-deep-force-update": "^2.0.1",
+    "react-dom": "^16.13.1",
+    "react-drawer": "^1.3.4",
+    "react-dropzone-component": "^3.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-ga4": "^2.1.0",
+    "react-geosuggest": "^2.1.0",
+    "react-google-maps": "9.4.5",
+    "react-google-maps-loader": "^4.2.3",
+    "react-google-places-suggest": "^3.5.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icheck": "0.3.8",
+    "react-icons": "^2.2.3",
+    "react-images": "^0.5.2",
+    "react-intl": "^2.2.3",
+    "react-intl-redux": "^2.4.0",
+    "react-loader-advanced": "^1.4.1",
+    "react-md-spinner": "^0.2.2",
+    "react-multi-carousel": "^2.8.4",
+    "react-overlays": "^0.7.3",
+    "react-paypal-button-v2": "^2.6.2",
+    "react-player": "^1.11.1",
+    "react-quill": "^1.3.3",
+    "react-redux": "^5.0.2",
+    "react-redux-loading-bar": "^2.7.4",
+    "react-redux-toastr": "^7.4.1",
+    "react-scroll": "^1.6.1",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.23.2",
+    "react-star-rating-component": "^1.2.4",
+    "react-switch": "3.0.4",
+    "reactable": "^1.1.0",
+    "redux": "^3.6.0",
+    "redux-form": "7.4.2",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.1.0",
+    "request": "^2.81.0",
+    "rheostat": "^2.1.0",
+    "sequelize": "v6",
+    "sequelize-cli": "^6.0.0",
+    "serialize-javascript": "^1.3.0",
+    "sharp": "^0.25.4",
+    "sitemap": "^2.2.0",
+    "source-map-support": "^0.4.11",
+    "stripe": "^6.10.0",
+    "twilio": "^3.71.1",
+    "universal-router": "^2.0.0",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "autoprefixer": "^6.7.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-react-intl": "^2.3.1",
+    "babel-plugin-rewire": "^1.2.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-template": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "browser-sync": "^2.18.7",
+    "chai": "^3.5.0",
+    "chokidar": "^1.6.1",
+    "css-loader": "^0.26.1",
+    "editorconfig-tools": "^0.1.1",
+    "enzyme": "^2.7.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-css-modules": "^2.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-scope": "^7.1.1",
+    "file-loader": "^0.10.0",
+    "front-matter": "^2.1.2",
+    "glob": "^7.1.1",
+    "jest": "^29.4.3",
+    "json-loader": "^0.5.4",
+    "lint-staged": "^3.3.0",
+    "markdown-it": "^8.2.2",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "pixrem": "^3.0.2",
+    "pleeease-filters": "^3.0.0",
+    "postcss": "^5.2.12",
+    "postcss-calc": "^5.3.1",
+    "postcss-color-function": "^3.0.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.2",
+    "postcss-custom-selectors": "^3.0.0",
+    "postcss-flexbugs-fixes": "^2.1.0",
+    "postcss-global-import": "^1.0.0",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.2.2",
+    "postcss-media-minmax": "^2.1.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-nesting": "^2.3.1",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-selector-matches": "^2.0.5",
+    "postcss-selector-not": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "raw-loader": "^0.5.1",
+    "react-addons-test-utils": "^15.4.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "redbox-react": "^1.3.3",
+    "redux-mock-store": "^1.2.1",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^6.0.3",
+    "sinon": "^2.0.0-pre.5",
+    "stylefmt": "^5.1.1",
+    "stylelint": "^7.8.0",
+    "stylelint-config-standard": "^16.0.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-bundle-analyzer": "^2.3.0",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1",
+    "write-file-webpack-plugin": "^3.4.2",
+    "yarn-audit-fix": "^1.5.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2",
+      "react"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "rewire"
+        ]
+      }
+    }
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb",
+      "plugin:css-modules/recommended"
+    ],
+    "plugins": [
+      "css-modules"
+    ],
+    "globals": {
+      "__DEV__": true
+    },
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off",
+      "react/jsx-filename-extension": "off",
+      "react/prefer-stateless-function": "off"
+    }
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "string-quotes": "single",
+      "property-no-unknown": [
+        true,
+        {
+          "ignoreProperties": [
+            "composes"
+          ]
+        }
+      ],
+      "selector-pseudo-class-no-unknown": [
+        true,
+        {
+          "ignorePseudoClasses": [
+            "global"
+          ]
+        }
+      ]
+    }
+  },
+  "pre-commit": "lint:staged",
+  "lint-staged": {
+    "*.{cmd,html,json,md,sh,txt,xml,yml}": [
+      "editorconfig-tools fix",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{css,less,scss,sss}": [
+      "stylefmt",
+      "stylelint",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "lint:js": "eslint src tools",
+    "lint:css": "stylelint \"src/**/*.{css,less,scss,sss}\"",
+    "lint:staged": "lint-staged",
+    "lint": "yarn run lint:js && yarn run lint:css",
+    "test": "mocha \"src/**/*.test.js\" --require babel-register --require test/setup.js",
+    "test:watch": "yarn run test -- --reporter min --watch",
+    "clean": "babel-node tools/run clean",
+    "copy": "babel-node tools/run copy",
+    "extractMessages": "babel-node tools/run extractMessages",
+    "bundle": "babel-node tools/run bundle",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider babel-node tools/run build",
+    "build:stats": "yarn run build -- --release --analyse",
+    "deploy": "babel-node tools/run deploy",
+    "render": "babel-node tools/run render",
+    "serve": "babel-node tools/run runServer",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider babel-node tools/run start",
+    "start-firefox-debugger-server": "/Applications/Firefox.app/Contents/MacOS/firefox -start-debugger-server",
+    "jest": "jest"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

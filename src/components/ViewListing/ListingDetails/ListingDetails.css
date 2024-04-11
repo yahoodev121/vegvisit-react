@@ -1,0 +1,40 @@
+@import '../common.css';
+
+.sectionCaptionLink {
+  font-size: 14px;
+  color: #008489;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+}
+.sectionCaptionLink:hover ,.sectionCaptionLink:active, .sectionCaptionLink:focus   {
+  color: #008489;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: none;
+}
+.warningIcon{
+  margin-top: -2px;
+  margin-right: 5px;
+}
+.boldFont{
+  font-weight: bold !important;
+}
+.preserveLineBreaks
+{
+  white-space: pre-line;
+}
+.label {
+  margin: 2px;
+}
+.highlights {
+  padding-left: 1em;
+}
+.mealItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+/* .spaceFontSize {
+  font-size: 13px !important;
+} */

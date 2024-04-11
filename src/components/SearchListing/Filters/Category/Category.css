@@ -1,0 +1,8 @@
+@import '../../../../components/common.css';
+
+.categoryContainer {
+    padding: 0px 12px;
+}
+.mt10 {
+    margin-top: 10px;
+}

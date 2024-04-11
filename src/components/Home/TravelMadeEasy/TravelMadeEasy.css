@@ -1,0 +1,71 @@
+.travelHeading{
+    text-align: center;
+    color: #484848;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.leftImage{
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    position: relative;
+  
+}
+.leftImage::after{
+    content: "";
+    background-color: rgba(6, 15, 19, 0);
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 3%, rgb(0, 0, 0) 100%) !important;
+    opacity: 0.6 !important;
+    position: absolute !important;
+    height: 60% !important;
+    width: 100% !important;
+    left: 0px !important;
+    bottom: 0px !important;
+}
+.centerContent{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: #fff;
+    z-index: 1;
+   
+}
+.centerContent img{
+    width:130px;
+}
+.centerContent h1{
+    margin: 3px 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 0 2px 9px #484848;
+}
+.centerContent p{
+    font-weight: 600;
+    margin: 5px 0 0;
+    font-size: 15px;
+    text-shadow: 0 2px 9px #484848;
+
+}
+.paddingTop{
+    padding-top: 30px;
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+    .centerContent{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px){
+     .marginTop{
+         margin-top: 25px;
+     }
+}  

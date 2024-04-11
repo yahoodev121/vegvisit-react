@@ -1,0 +1,6 @@
+{
+  "name": "ImportReviewsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImportReviewsModal.js"
+}

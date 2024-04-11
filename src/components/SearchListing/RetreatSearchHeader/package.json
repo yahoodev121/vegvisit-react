@@ -1,0 +1,6 @@
+{
+    "name": "RetreatSearchHeader",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./RetreatSearchHeader.js"
+}

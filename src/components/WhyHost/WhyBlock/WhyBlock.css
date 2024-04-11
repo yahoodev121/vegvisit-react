@@ -1,0 +1,164 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whybnb {
+  padding-top: 56px;
+  margin-bottom: 40px;
+}
+
+h4.common {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p.common {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.whybnb .whyblock {
+  padding-right: 45px;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.imgSection {
+  width: 100%;
+  max-width: 150px; 
+  margin: 0 auto;
+}
+
+/* .imgHeight {
+  height: 150px;
+} */
+
+.subText {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.displayInline {
+  display: inline-block;
+  width: 33.3%;
+  padding: 24px;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.descriptionText {
+  font-size: 17px;
+  word-spacing: 3px;
+}
+
+.displayFlex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.displayFlex:before , .displayFlex:after{
+  display:none !important;
+}
+
+
+@media screen and (max-width:991px) {
+  .whybnb {
+    padding-top: 0px;
+    margin-bottom: 40px;
+  }
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .whyblock {
+    margin-bottom: 85px;
+    padding-right: 0px!important;
+    padding-left: 0px;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 13px;
+  }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .whyblock {
+    padding-right: 15px!important;
+ 
+  }
+
+}
+
+
+@media screen and (max-width:767px) {
+  .whybnb {
+    margin-top: 0px;
+    margin-bottom: 49px;
+    text-align: center;
+  }
+  .common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .whyblock {
+    margin-bottom: 35px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  .steps {
+    margin-top: 24px;
+  }
+  h4.common {
+    font-size: 20px;
+    text-align: center;
+  }
+  p.common {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .mainhedding h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+
+  .displayInline {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  .subText {
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .descriptionText {
+    font-size: 16px;
+    word-spacing: 3px;
+  }
+}

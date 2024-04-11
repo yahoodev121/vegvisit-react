@@ -1,0 +1,192 @@
+query getThread($threadType: String, $threadId: Int){
+  getThread(threadType: $threadType, threadId: $threadId) {
+    id
+    listId
+    guest
+    host
+    listData {
+      title
+      city
+      state
+      country
+      street
+      buildingName
+      zipcode
+      isPublished
+      timeZone
+      listingData {
+        basePrice
+        cleaningPrice
+        currency
+        monthlyDiscount
+        weeklyDiscount
+        checkInStart
+        checkInEnd
+      }
+    }
+    threadItemForType {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      personCapacity
+      createdAt
+      messageType
+      cancelData {
+        id
+        reservationId
+        cancellationPolicy
+        guestServiceFee
+        hostServiceFee
+        refundToGuest
+        payoutToHost
+        total 
+        currency
+      }
+      reservation {
+        id
+        listId
+        hostId
+        guestId
+        checkIn
+        checkOut
+        basePrice
+        cleaningPrice
+        total
+        currency
+        guests
+        confirmationCode
+        guestServiceFee
+        discount
+        discountType
+        createdAt
+        updatedAt
+        hostServiceFee
+        paymentState
+        reservationState
+        isSpecialPriceAverage
+        bookingSpecialPricing {
+          id
+          reservationId
+          blockedDates
+          isSpecialPrice
+        }
+      }
+    }
+    actionThreadItems {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      personCapacity
+      createdAt
+      messageType
+      cancelData {
+        id
+        reservationId
+        cancellationPolicy
+        guestServiceFee
+        hostServiceFee
+        refundToGuest
+        payoutToHost
+        total 
+        currency
+      }
+      reservation {
+        id
+        listId
+        hostId
+        guestId
+        checkIn
+        checkOut
+        basePrice
+        cleaningPrice
+        total
+        currency
+        guests
+        confirmationCode
+        guestServiceFee
+        discount
+        discountType
+        createdAt
+        updatedAt
+        hostServiceFee
+        paymentState
+        reservationState
+        isSpecialPriceAverage
+        bookingSpecialPricing {
+          id
+          reservationId
+          blockedDates
+          isSpecialPrice
+        }
+      }
+    }
+    threadItems {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      messageType
+      createdAt
+    }
+    threadItemsCount
+    guestProfile {
+      profileId
+      displayName
+      firstName
+      lastName
+      picture
+      location
+      reviewsCount
+      phoneNumber
+      createdAt
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    guestUserData {
+      email
+      userBanStatus
+    }
+    hostProfile {
+      profileId
+      displayName
+      firstName
+      lastName
+      picture
+      location
+      reviewsCount
+      phoneNumber
+      createdAt
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    hostUserData {
+      email
+      userBanStatus
+    }
+    status
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../../../components/common.css';
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .textCenter {
+        text-align: center !important;
+    } 
+}
+
+.responsiveWidth {
+    width: 100% !important;
+    max-width: 150px !important;
+}
+
+.textCenterResponsive {
+    text-align: center !important;
+}

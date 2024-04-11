@@ -1,0 +1,47 @@
+@import '../../../components/common.css';
+.sticky {
+    z-index: 6;
+    position: sticky;
+    top: 0px;
+}
+
+.searchHeaderContainerBox {
+    z-index: 6;
+    height: 64px;
+    position: relative;
+    width: 100%;
+}
+.searchHeaderContainer {
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color);
+    z-index: 4 !important;
+    padding: 15px;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid var(--border-color);
+    min-height: 64px;
+    vertical-align: middle;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.filterButtonContainer {
+    display: inline-block;
+    position: relative;
+    margin: 0 4px 0 8px;
+}
+
+@media screen and (max-width: 991px) {
+   
+}
+
+@media screen and (max-width: 768px) {
+    .fullResponsiveContainer {
+        z-index: 80;
+        height: 100%;
+        /* overflow: hidden; */
+    }
+}

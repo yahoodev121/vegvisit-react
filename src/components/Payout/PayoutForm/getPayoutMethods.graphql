@@ -1,0 +1,15 @@
+query getPayoutMethods {
+  getPayoutMethods {
+    id
+    name
+    processedIn
+    fees
+    currency
+    details
+    isEnable
+    paymentType
+    createdAt
+    updatedAt
+    status
+  }
+}

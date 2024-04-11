@@ -1,0 +1,6 @@
+{
+  "name": "GetEmailsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./GetEmailsModal.js"
+}

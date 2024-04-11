@@ -1,0 +1,6 @@
+{
+  "name": "TravelMadeEasy",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TravelMadeEasy.js"
+}

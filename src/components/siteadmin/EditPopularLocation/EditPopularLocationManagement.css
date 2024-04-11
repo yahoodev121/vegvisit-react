@@ -1,0 +1,11 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+@import '../../common.css';
+@import '../../utils.css';
+
+.btnPrimary:hover {
+    border-color: var(--btn-primary-hover-bg) !important;
+    background-color: var(--btn-primary-hover-bg) !important;
+}
+  

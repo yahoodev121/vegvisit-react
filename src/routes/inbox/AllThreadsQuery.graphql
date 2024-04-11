@@ -1,0 +1,58 @@
+query GetAllThreads($threadType: String, $threadId: Int, $currentPage: Int){
+  GetAllThreads(threadType: $threadType, threadId: $threadId, currentPage: $currentPage) {
+    threadsData {
+      id
+      listId
+      guest
+      listData {
+        city
+        state
+        country
+        timeZone
+      }
+      threadItem {
+        id
+        threadId
+        content
+        sentBy
+        isRead
+        type
+        startDate
+        endDate
+        createdAt
+        messageType
+        reservation {
+          id
+          paymentState
+          reservationState
+        }
+      }
+      actionThreadItem {
+        id
+        threadId
+        content
+        sentBy
+        isRead
+        type
+        startDate
+        endDate
+        createdAt
+        messageType
+      }
+      guestProfile {
+        profileId
+        displayName
+        firstName
+        picture
+      }
+      hostProfile {
+        profileId
+        displayName
+        firstName
+        picture
+      }
+      status
+    }
+    count
+  }
+}

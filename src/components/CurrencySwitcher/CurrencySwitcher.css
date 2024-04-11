@@ -1,0 +1,62 @@
+
+@import '../variables.css';
+
+.formControlSelect {
+  overflow: hidden;
+  /*Drop Down Caret Icon*/
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+    calc(100% - 15px) calc(50% + 2px),    
+    calc(100% - 15px) calc(1em + 2px),    
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 6px,
+    5px 6px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  /*Drop Down Caret Icon*/
+}
+
+.formControlSelectHeader {
+  color: #767676 !important;
+  font-size: 15px !important;
+  height: 46px;
+  margin-top: 0px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px 10px 8px 5px;
+  position: relative;
+  max-width: 100px;
+  min-width: 80px;
+}
+
+.formControlSelectHeaderHome {
+  color: #767676 !important;
+  font-size: 15px !important;
+  height: 36px;
+  margin-top: 0px;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 8px 10px 8px 5px;
+  position: relative;
+  max-width: 100px;
+  min-width: 80px;
+}
+
+.formControlSelectFooter {
+  height: 53px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 19px;
+  display: block;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  line-height: 24px;
+}

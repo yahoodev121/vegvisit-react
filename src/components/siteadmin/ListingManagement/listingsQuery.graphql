@@ -1,0 +1,40 @@
+query getAllListings($currentPage: Int, $searchList: String, $sortColumn: String, $sortDirection: Int){
+  getAllListings(currentPage: $currentPage, searchList: $searchList, sortColumn: $sortColumn, sortDirection: $sortDirection) {
+    count
+    usersData{
+      id
+        title
+        city
+        state
+        street
+        buildingName
+        zipcode
+        country
+        createdAt
+        updatedAt
+        isPublished
+        lastPublished
+        isReady
+        residenceType
+        reviewsImportUrlAirbnb
+        lastReviewsImportAirbnb
+        user{
+            email
+            profile {
+                firstName
+            }
+        }
+        listPhotos {
+            name
+        }
+        recommend{
+            id
+            listId
+        }
+        lastImportedReview{
+          importUrl
+          updatedAt
+        }
+    }
+   }
+}

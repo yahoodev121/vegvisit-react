@@ -1,0 +1,11 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+
+.userVerticalAlign{
+    vertical-align: middle !important;
+}
+
+.btnMarginBottom{
+    margin-bottom: 0px !important;
+}

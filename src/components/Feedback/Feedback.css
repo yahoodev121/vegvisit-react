@@ -1,0 +1,109 @@
+@import '../variables.css';
+
+.root {
+  background: #ffffff;
+  color: #333;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  border-top: 1px solid #dce0e0;
+  max-width: var(--max-container-width);
+  font-size: 1.5em; /* ~24px */
+  display: block;
+}
+
+.feedbackContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feedbackRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feedbackBox {
+  padding: 40px 30px;
+  border-right: 1px solid #dce0e0;
+  /* display: table;
+  float: left; */
+}
+
+.feedbackBox:last-of-type {
+  border-right: 1px solid transparent;
+}
+
+.feedbackIcon {
+  float: left;
+  display: table-cell;
+  font-size: 33px;
+ vertical-align: top;
+  line-height: 20px;
+ 
+}
+.feedbackIcon img{
+  width:60px;
+}
+.feedbackContent {
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 0 0 15px;
+}
+
+.landingLabel {
+  color: #484848;
+  font-size: 18px;
+  font-weight:700;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.landingCaption {
+  color: #484848;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.43;
+  padding-top: 10px;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+.feedbackRow::after, .feedbackRow::before{
+  display: none;
+}
+@media (max-width:1023px) and (min-width:768px) {
+  .feedbackBox {
+    padding: 40px 20px;
+   
+}
+.landingLabel{
+  
+  font-size: 16px;
+ 
+}
+  }
+@media screen and (max-width: 767px) {
+  .feedbackBox {
+    display: block;
+    float: left;
+    border-bottom: 1px solid #dce0e0;
+  }
+
+  .feedbackBox:last-of-type {
+    border-bottom: 1px solid transparent;
+  }
+}
+
+.overviewIcon {
+  font-size: 2.4em;
+  text-align: center;
+  color: #767676;
+  fill: #767676;
+  max-height: 34px;
+  max-width: 34px;
+}

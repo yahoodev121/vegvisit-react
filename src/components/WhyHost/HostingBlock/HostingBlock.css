@@ -1,0 +1,194 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.container {
+  max-width: 1200px;
+}
+
+.seperator {
+  background-color: #484848;
+  width: 500px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+  
+  border-top: 1.5px solid #484848;
+  background-color: transparent;
+}
+
+.hostingsection {
+  margin-bottom: 100px;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.steps .circle {
+  background-color: #3cbc8b;
+  display: flex;
+  border-radius: 63px;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px !important;
+  margin-left: 48px;
+}
+
+.steps .circle span {
+  display: block;
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+  font-size: 74px;
+}
+
+.steps a {
+  font-size: 17px;
+}
+
+h4.common {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p.common {
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.contentSection {
+  display: inline-block;
+  width: 33.3%;
+  padding: 24px;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.imgSection {
+  width: 100%;
+  max-width: 130px;
+  margin: 0 auto;
+}
+
+.imageMainSection {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  margin-left: 60px;
+  margin-bottom: 18px;
+}
+
+
+@media screen and (max-width:991px) {
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .whyblock {
+    margin-bottom: 35px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 13px;
+  }
+  .steps {
+    margin-top: 44px;
+  }
+  .hostingsection {
+    margin-bottom: 64px;
+  }
+
+  .steps .circle {
+    background-color: #3cbc8b;
+    display: flex;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+  }
+
+  p.common {
+    text-align: center;
+  }
+
+  .contentSection {
+    display: inline-block;
+    width: 100%;
+    padding: 24px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .imageMainSection {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 0px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  .imgSection {
+    width: 100%;
+    max-width: 90px;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .mainhedding h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  .steps {
+    margin-top: 24px;
+  }
+  h4.common {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hostingsection {
+    margin-bottom: 64px;
+  }
+  p.common {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .seperator {
+    background-color: #484848;
+    width: 250px;
+    display: block;
+    height: 1.5px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+}

@@ -1,0 +1,17 @@
+node_modules
+build/
+serve/
+fork/
+images/avatar/
+images/document/
+images/upload/
+images/contentManagement/
+.env
+.eslintignore
+.eslintrc.js
+.vscode/*
+.idea
+.yarn
+yarn.lock
+src/config.js
+**/.DS_Store

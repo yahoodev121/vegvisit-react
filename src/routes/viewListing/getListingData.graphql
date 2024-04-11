@@ -1,0 +1,172 @@
+query getListingData($listId:String!, $preview: Boolean) {
+          UserListing (listId:$listId, preview: $preview) {
+            id
+            userId
+            title
+            description
+            coverPhoto
+            country
+            street
+            buildingName
+            city
+            state
+            zipcode
+            lat
+            lng
+            isMapTouched
+            timeZone
+            bookingType
+            bedrooms
+            residenceType
+            beds
+            personCapacity
+            bathrooms
+            kitchen
+            coverPhoto
+            moreDetails
+            aboutPlaces,
+            aboutKitchen,
+            neighourhood,
+            nonVeg,
+            notes
+            listPhotos{
+              id
+              name
+            }
+            user {
+              email
+              profile{
+                profileId
+                firstName
+                lastName
+                displayName
+                dateOfBirth
+                picture
+                location
+                info
+                createdAt
+              }
+            }
+            userAmenities {
+              amenitiesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+             userServices {
+              serviceId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            userSafetyAmenities {
+              safetyAmenitiesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            userSpaces {
+              spacesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            settingsData {
+              id
+              settingsId
+              listsettings {
+                id
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            houseRules {
+              houseRulesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            listingData {
+              bookingNoticeTime,
+              checkInStart,
+              checkInEnd,
+              maxDaysNotice,
+              minNight,
+              maxNight,
+              basePrice,
+              cleaningPrice,
+              currency,
+              weeklyDiscount,
+              monthlyDiscount,
+              additionalRules,
+              cancellation{
+                id
+                policyName
+                policyContent
+              }
+            },
+            listingRetreat {
+              id
+              highlights
+              category {
+                id
+                name
+              }
+              startDate
+              endDate
+              numberSeats
+              searchResultsBulletpoints
+              about
+              itinerary
+              accommodation
+              meals {
+                mealType
+                mealIcon
+              }
+            }
+            listType
+            userBedsTypes{
+              id
+              listId
+              bedCount
+              bedType
+            }
+            listBedTypes{
+              bedType
+              listsettings{
+                isEnable
+                itemName
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            reviewsCount,
+            reviewsStarRating
+            isListOwner
+            wishListStatus
+          }
+        }

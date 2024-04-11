@@ -1,0 +1,71 @@
+@import '../common.css';
+
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 90px;
+  width: 90px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .profileAvatar {
+    height: 54px;
+    width: 54px;
+  }
+}
+.btnMargin{
+  margin-right:25px;
+  color: #ffffff!important;
+  background-color: #008489
+
+}
+.contactButton{
+    font-size: 16px;
+    color: #008489;
+    /* font-weight: bold; */
+    cursor: pointer;
+    text-transform: none;
+    border:1px solid #008489 ;
+    padding:12px 27px;
+    border-radius:4px;
+    line-height:22px;
+    width: 152px;
+    text-align: center;
+}
+.displayFlex{
+  display:flex;
+  flex-wrap:wrap;
+}
+@media(max-width:444px){
+  .btnMargin{
+    margin-right:0px;
+    margin-bottom:10px;
+  }
+}
+
+
+.contactButton:hover,.contactButton:active, .contactButton:focus {
+  color: #fff !important;
+  border:1px solid #008489 !important;
+  background:  #008489 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+

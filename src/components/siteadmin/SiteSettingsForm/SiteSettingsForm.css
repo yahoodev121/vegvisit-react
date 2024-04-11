@@ -1,0 +1,12 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+.fullWithSelect {
+    width: 100%;
+}
+
+.marbtm14{
+
+    margin-bottom: 14px;
+}

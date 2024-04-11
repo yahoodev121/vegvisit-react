@@ -1,0 +1,65 @@
+@import "../../utils.css";
+
+.exploreMapHeading {
+  text-align: center;
+  color: #191919;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 1.2px;
+  line-height: 6vw;
+  margin: 0 5%;
+}
+
+.mapImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.exploreMapDescription {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.4vw;
+  letter-spacing: 0.1vw;
+  color: #3b3838;
+}
+
+@media screen and (max-width: 992px) {
+  .exploreMapHeading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .exploreMapDescription {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0vw;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .exploreMapHeading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .exploreMapHeading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .exploreMapDescription {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .exploreMapDescription {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+  }
+}

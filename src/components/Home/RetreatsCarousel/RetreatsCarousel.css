@@ -1,0 +1,128 @@
+@import "../../utils.css";
+
+.carouselItem {
+  text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.itemTitle {
+  color: #484848;
+  font-size: 1.5rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.imageWrapper::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.itemImage {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 7px 21px;
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navigationIcon {
+  display: block;
+  fill: rgb(255, 255, 255);
+  height: auto;
+  width: auto;
+  padding: 8px;
+  font-size: 30px;
+}
+
+.sliderMargin {
+  margin: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .itemTitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .itemTitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .itemTitle {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 790px) {
+  .itemTitle {
+    font-size: 16.5px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .itemTitle {
+    font-size: 23px;
+  }
+  .sliderMargin {
+    margin: 40px;
+  }
+  .navigationIcon {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .itemTitle {
+    font-size: 18px;
+  }
+  .sliderMargin {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .itemTitle {
+    font-size: 16px;
+  }
+}
+.gridImgContainer {
+  display: inline-block;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.gridItemImage {
+  width: 100%;
+  height: auto;
+}
+
+.gridItemTitle {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,171 @@
+@import '../variables.css';
+@import '../siteadmin/newcommonstyle.css';
+
+.root {
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 100%; /* Container varible*/
+}
+
+.rentAllHeader {
+  background: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-color: #dce0e0;
+  border-radius: 0px;
+  min-height: 83px;
+  line-height: 81px;
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 0px;
+  z-index: 7;
+}
+
+.fixedHeader {
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  /* overflow-y: auto; */
+  max-height: 100vh;
+}
+
+.rentAllHeaderBorderLess {
+  border: 0px;
+  box-shadow: none;
+}
+
+.brand {
+  line-height: inherit;
+  vertical-align: middle;
+  text-decoration: none;
+  height: 81px;
+  float: none;
+  padding: 0px 19px;
+  color: #484848;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.brand:hover, .brand:focus {
+  text-decoration: none;
+  backface-visibility: visible !important;
+}
+
+.brandImg{
+  display: table-cell;
+  padding-left: 12px;
+  padding-right: 12px;  
+  max-width: 180px;
+  backface-visibility: visible !important;
+}
+
+.brandImg img {
+  max-width: 180px;
+  backface-visibility: visible !important;
+}
+
+.brandImgToggle{
+  padding-left: 12px;
+  padding-right: 12px; 
+  backface-visibility: visible !important;
+}
+
+.navBarToggle {
+  color: #484848;
+  float: none;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+  border:0px;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px 19px 0px 0px;
+  backface-visibility: hidden;
+}
+
+.rentAllHeaderAdmin {
+  background: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-color: #dce0e0;
+  border-radius: 0px;
+  min-height: 63px;
+  line-height: 63px;
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 0px;
+  z-index: 7;
+}
+
+.navBarToggle:hover, .navBarToggle:focus, .navBarToggle:hover:focus {
+  background: none !important;
+}  
+
+
+.brandAdmin {
+  line-height: inherit;
+  vertical-align: middle;
+  text-decoration: none;
+  height: 63px;
+  float: none;
+  padding: 0px 19px;
+  color: #484848;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.currencySwitcherNavBar, .currencySwitcherHomeNavBar {
+  line-height: 58px;
+}
+
+.currencySwitcherHomeNavBar {
+  position: relative !important;
+  top: auto !important;
+}
+
+@media screen and (max-width: 767px) {
+  .rentAllHeader {
+    height: auto;
+    line-height: 60px;
+    min-height: 65px;
+  }
+  .currencySwitcherHomeNavBar {
+    display: none;
+  }
+}
+
+/* @media (max-width: 1300px) {
+  .brandImg{
+    display: none;
+  }
+} */
+
+@media (max-width: 1200px) {
+  .fixedHeader {
+    overflow-y: auto;
+  }
+  .breakPoint{
+    display: none !important;
+  }
+  .brandImg{
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .navBarToggle {
+    padding: 20px 19px 0px 0px;
+  }
+}
+@media (min-width: 767px) {
+  .currencySwitcherNavBar {
+    margin: 0px 5px !important;
+  }
+  .currencySwitcherHomeNavBar {
+    margin: 0px !important;
+    margin-left: 10px !important;
+  }
+}

@@ -1,0 +1,87 @@
+query ShowUserProfile($profileId: Int, $isUser: Boolean) {
+    showUserProfile(profileId: $profileId, isUser: $isUser) {
+        userId
+        profileId
+        firstName
+        lastName
+        dateOfBirth
+        gender
+        phoneNumber
+        preferredLanguage
+        preferredCurrency
+        location
+        info
+        createdAt
+        picture
+        lifestyle
+        funFacts
+        hobbies
+        books
+        music
+        movies
+        spokenLanguages
+        school
+        work
+        companionAnimals
+        quote
+        foodCategory
+        userDiets {
+          diet {
+            dietName
+          }
+        }
+        profileBanStatus {
+            userBanStatus
+        }
+        reviewsCount
+        reviews {
+            id
+            reservationId
+            listId
+            authorId
+            userId
+            reviewContent
+            rating
+            parentId
+            automated
+            createdAt
+            status
+            isAdmin
+            importUserName
+            importDateInfo
+            authorData {
+                ...userprofileFields
+            }
+            userData {
+                ...userprofileFields
+            }
+            response {
+                id
+                reservationId
+                listId
+                authorId
+                userId
+                reviewContent
+                rating
+                parentId
+                automated
+                createdAt
+                status
+                authorData {
+                    ...userprofileFields
+                }
+                userData {
+                    ...userprofileFields
+                }
+            }
+        }
+    }
+}
+
+fragment userprofileFields on userProfile {
+    profileId
+    firstName
+    lastName
+    picture
+    location
+}
